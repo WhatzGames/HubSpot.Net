@@ -1,8 +1,7 @@
-using System;
 using FluentAssertions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace HubSpot.Net.Test;
+namespace HubSpot.Net.Core.Test;
 
 [TestClass]
 public class HubSpotConfigurationTests
