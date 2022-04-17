@@ -27,7 +27,7 @@ public class HubSpotConfigurationTests
     }
     
     [TestMethod]
-    public void HubSpotConfig_ShouldHaveKey()
+    public void HubSpotConfig_ShouldHaveEmptyStringKey()
     {
         // Arrange
         // Act
@@ -37,7 +37,7 @@ public class HubSpotConfigurationTests
     }
     
     [TestMethod]
-    public void Key_ShouldChange_WhenValueIsSet()
+    public void Key_ShouldBeAssignable()
     {
         // Arrange
         const string key = "key";
@@ -47,4 +47,5 @@ public class HubSpotConfigurationTests
         // Assert
         hubSpotConfig.Key.Should().BeSameAs(key);
     }
+    
 }
